@@ -37,6 +37,7 @@ class Template {
            for (int i = 0; i < variables.size(); i++) { // v = 1 -> i = 0, total 1 || v = 2 -> i = 0, 1, total 2
                variables.pop_back(); //clear variables array once done, allowing for reuse   
            }
+           variables.pop_back();
        }
        ~Template() {
            cout << "\nSaving...\n----\n----\n----\n"; // exit

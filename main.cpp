@@ -4,7 +4,7 @@ using namespace std;
 
 class Template {
     public:
-       string Tname = "Empty Slot"; // 
+       string Tname = "Empty Slot"; // technical reasons
        string content = "";
        vector<int> variables = {}; // stores where the # (variables) are in the string
        void assignName(string n) { // create template function
